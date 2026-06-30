@@ -170,5 +170,16 @@ header p {
     border: solid white;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
+}
 
+.todo-item-text {
+    flex: 1;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+.todo-item.completed .todo-item-text {
+    text-decoration: line-through;
+    color: var(--gray);
+    
 }
